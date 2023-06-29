@@ -1,0 +1,226 @@
+body {
+  background-image: url("./assets/img/sfondo.png");
+  background-size: cover;
+  background-repeat: repeat-y;
+
+  font-family: "Poppins", sans-serif;
+}
+/* IMPOSTAZIONI GENERALI */
+
+hr {
+  border-color: rgb(56, 79, 197);
+}
+
+/* HEADER */
+
+.top-box {
+  background: linear-gradient(to bottom, #4397b7, #2e6a85);
+  width: 90%;
+  margin-inline: auto;
+  margin: 15px auto;
+  text-align: center;
+  box-shadow: 0px 1px 3px 1px rgba(2, 2, 2, 0.473);
+}
+
+.top-box img {
+  display: inline-block;
+  text-align: center;
+  padding-block: 20px;
+  height: 70px;
+}
+
+.top-box h3 {
+  color: white;
+  padding-block: 3px;
+}
+
+div.top-box h3 a {
+  color: white;
+}
+
+/* MAIN */
+.main {
+  background-color: white;
+  width: 90%;
+  margin-inline: auto;
+  box-shadow: 0px 1px 3px 1px rgba(2, 2, 2, 0.473);
+  margin-block: 30px;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+.elements-main {
+  padding-inline: 17px;
+  padding-block: 20px;
+  line-height: 1.4;
+}
+
+.elements-main > p {
+  padding-bottom: 25px;
+}
+
+div.elements-main h1 {
+  font-size: 28px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.publication {
+  color: rgba(128, 128, 128, 0.685);
+  padding-block: 25px;
+}
+
+article span {
+  color: #a731d2;
+  font-weight: bold;
+}
+
+article {
+  padding-bottom: 25px;
+}
+
+ul {
+  margin-left: 24px;
+  padding-bottom: 25px;
+}
+
+ul span {
+  background-color: rgb(201, 201, 201);
+  border-radius: 12%;
+  border: 1.3px solid rgb(173, 173, 173);
+}
+
+ol {
+  margin-left: 24px;
+  padding-bottom: 25px;
+}
+
+h5 {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* TABELLE */
+
+.table {
+  text-align: center;
+  margin-left: 6px;
+}
+
+table th {
+  padding-block: 10px;
+  padding-inline: 23px;
+  color: white;
+  background-color: rgb(56, 79, 197);
+  vertical-align: bottom;
+}
+
+table td {
+  padding-block: 10px;
+}
+
+.colomn1 {
+  background: rgb(230, 230, 230);
+  border-top: 1px solid rgb(197, 197, 197);
+  border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+.paragraph a {
+  color: rgb(19, 141, 254);
+  font-weight: bold;
+}
+
+.video {
+  height: 258px;
+}
+
+iframe {
+  width: 100%;
+  height: 70%;
+  border-radius: 10%;
+  position: relative;
+  bottom: -10%;
+}
+/* FORM */
+.form {
+  background-color: rgb(201, 201, 201);
+  margin-inline: auto;
+  margin-bottom: 25px;
+}
+
+.form h3 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 21px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form p {
+  padding-inline: 17px;
+  padding-bottom: 15px;
+}
+
+form {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+input {
+  border-bottom: 2px dashed rgb(131, 131, 131);
+  box-shadow: none;
+  padding-block: 6px;
+}
+
+button {
+  font-weight: bold;
+  color: white;
+  background-color: rgb(19, 141, 254);
+  padding-block: 5px;
+}
+
+h3.articoli-correlati {
+  font-size: 21px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+.url-correlati1 {
+  background-color: rgb(201, 201, 201);
+  margin-inline: auto;
+  margin-bottom: 25px;
+  padding-inline: 17px;
+  padding-block: 15px;
+}
+
+.url-correlati1 a {
+  color: rgb(19, 141, 254);
+}
+
+.data {
+  text-align: right;
+}
+
+/* FOOTER */
+
+.footer {
+  background: linear-gradient(to bottom, #4397b7, #2e6a85);
+  width: 90%;
+  margin-inline: auto;
+  margin: 15px auto;
+  text-align: center;
+  box-shadow: 0px 1px 3px 1px rgba(2, 2, 2, 0.473);
+}
+
+.footer p {
+  color: white;
+  padding-inline: 13px;
+  padding-top: 10px;
+}
+
+.footer a {
+  font-weight: bold;
+  color: rgb(183, 0, 146);
+}
